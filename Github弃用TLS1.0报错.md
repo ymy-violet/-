@@ -11,7 +11,7 @@ git push到 github上报错：
 
 官方声明：
 
-[Github . Weak cryptographic standards removal notice](Github . Weak cryptographic standards removal notice)
+[Github . Weak cryptographic standards removal notice](https://github.blog/2018-02-01-crypto-removal-notice/)
 
 因此，如果你的 git 连接方式仍然是 TLS 1.0 或 1.1，则会报错。
 
@@ -25,6 +25,7 @@ git push到 github上报错：
 -  安装好最新版 Git 后，更新 TLS
 
 > git config --global --unset http.sslVersion
+
 > git config --global --add http.sslVersion tlsv1.2
 
 操作如下图：
