@@ -3,6 +3,7 @@
 #### 报错
 
 git push到 github上报错：
+
 ![QQ图片20200330175404.png](https://i.loli.net/2020/03/30/ArJZmtc8EKMiPCf.png)
 
 #### 原因
@@ -15,6 +16,7 @@ git push到 github上报错：
 因此，如果你的 git 连接方式仍然是 TLS 1.0 或 1.1，则会报错。
 
 #### 解决
+
 - 查看你的TLS版本
 
 > git config --global --list 
@@ -26,5 +28,6 @@ git push到 github上报错：
 > git config --global --add http.sslVersion tlsv1.2
 
 操作如下图：
+
 ![QQ图片20200330191830.png](https://i.loli.net/2020/03/30/lof7y5INjdWpQCA.png)
 
